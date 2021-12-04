@@ -1,0 +1,81 @@
+
+.attribution { font-size: 11px; text-align: center;position: relative; top: 70px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    height: 100%;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+.main-div{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 360px;
+    margin: 1% 35%;
+}
+img{
+    max-width: 360px;
+    border-radius: 20px 20px 0 0;
+}
+.p-padding{
+    padding: 0 20px;
+    margin-bottom: 25px;
+}
+.pay-button{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 5px;
+    color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    font-weight: 700;
+}
+.pay-button:hover{
+    background-color: hsl(224, 23%, 55%)
+}
+.internal-div{
+    background-color: hsl(225, 100%, 98%);
+    margin: 0 45px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.internal-div span{
+    display: inline-block;
+}
+.internal-div a{
+    float: right;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.internal-div a:hover{
+    color: hsl(224, 23%, 55%)
+}
+.internal-div img{
+    padding-right: 10px;
+}
+h5, p{
+    margin: 0;
+    padding: 5px;
+}
+p{
+    color: gray;
+}
+.a-cancel{
+    color: gray;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 900;
+}
+.a-cancel:hover{
+    color: hsl(223, 47%, 23%)
+}
+
+@media screen and (min-width:375px) and (max-width: 750px){
+    .main-div{
+        margin: 1% 7%;
+    }
+}
